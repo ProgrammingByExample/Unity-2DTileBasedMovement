@@ -1,11 +1,11 @@
 {
-    "name": "FollowCameraPlayTests",
+    "name": "FQ.Camera.FollowCameraPlayTests",
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "FollowCamera",
-        "GameStaticsAPI"
+        "GameStaticsAPI",
+        "FQ.Camera.FollowCamera"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,7 +1,9 @@
 {
-    "name": "FollowCameraAPI",
+    "name": "FQ.GridLevel.Map",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:cf121eba43fe8684f9576e801c92521a"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
