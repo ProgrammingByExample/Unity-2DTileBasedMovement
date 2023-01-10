@@ -1,4 +1,4 @@
-﻿namespace Code.FQUnityAPI.GameStatics
+﻿namespace FQ.UnityAPI.GameStatics
 {
     /// <summary>
     /// Default implementations for Unity Statics, for the Unity API unmodified.

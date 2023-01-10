@@ -1,4 +1,4 @@
-﻿namespace Code.FQUnityAPI.GameStatics
+﻿namespace FQ.UnityAPI.GameStatics
 {
     /// <summary>
     /// Interface in front of Unity's time functions.

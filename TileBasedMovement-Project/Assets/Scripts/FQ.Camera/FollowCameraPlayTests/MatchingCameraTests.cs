@@ -1,10 +1,10 @@
 using System.Collections;
-using Code.FQ.Camera.FollowCamera;
+using FQ.Camera.FollowCamera;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-namespace Code.FQ.Camera.FollowCameraPlayTests
+namespace FQ.Camera.FollowCameraPlayTests
 {
     public class MatchingCameraTests
     {

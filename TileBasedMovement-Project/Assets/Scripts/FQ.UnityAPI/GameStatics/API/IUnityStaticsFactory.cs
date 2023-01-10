@@ -1,4 +1,4 @@
-﻿namespace Code.FQUnityAPI.GameStatics
+﻿namespace FQ.UnityAPI.GameStatics
 {
     /// <summary>
     /// Provides implementations for Unity Statics so that control is taken back for testing.

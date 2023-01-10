@@ -4,8 +4,8 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "GameStaticsAPI",
-        "FQ.Camera.FollowCamera"
+        "FQ.Camera.FollowCamera",
+        "FQ.UnityAPI.GameStatics.API"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

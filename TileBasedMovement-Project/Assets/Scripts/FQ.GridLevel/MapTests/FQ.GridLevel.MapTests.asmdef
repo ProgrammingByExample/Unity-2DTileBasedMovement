@@ -1,3 +1,10 @@
 {
-	"name": "FQ.GridLevel.MapTests"
+    "name": "MapTests",
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "references":[ "GUID:08243e64ecde84449bbfca14cfc9bd89", "GUID:cf121eba43fe8684f9576e801c92521a" ]
 }

@@ -1,8 +1,8 @@
 ﻿using System;
-using Code.FQUnityAPI.GameStatics;
+using FQ.UnityAPI.GameStatics;
 using UnityEngine;
 
-namespace Code.FQ.Camera.FollowCamera
+namespace FQ.Camera.FollowCamera
 {
     /// <summary>
     /// Moves the camera to the given subject.
