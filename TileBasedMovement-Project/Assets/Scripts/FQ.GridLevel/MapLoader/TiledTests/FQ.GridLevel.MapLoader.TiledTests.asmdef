@@ -1,0 +1,23 @@
+{
+    "name": "FQ.GridLevel.MapLoader.TiledTests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:86c9c104f0604e9cbf7ccd10ea5b4444"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Moq.dll",
+        "Castle.Core.dll",
+        "log4netPlastic.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -39,7 +39,7 @@ namespace FQ.GridLevel.MapTests
         {
             // Arrange
             var expected = EMapTileState.Blocked;
-            testClass.GiveTerrainMap(null, 0, 0);
+            testClass.GiveMovementMap(null, 0, 0);
 
             // Act
             EMapTileState actual = testClass.GetTileStateAt(0, 0, 0);
@@ -55,7 +55,7 @@ namespace FQ.GridLevel.MapTests
             var expected = EMapTileState.Open;
             var mockMovementMap = new Mock<IMovementMap>();
             mockMovementMap.Setup(x => x.GetTileStateAt(0,0,0)).Returns(expected);
-            testClass.GiveTerrainMap(mockMovementMap.Object, 0, 0);
+            testClass.GiveMovementMap(mockMovementMap.Object, 0, 0);
 
             // Act
             EMapTileState actual = testClass.GetTileStateAt(0, 0, 0);
@@ -74,7 +74,7 @@ namespace FQ.GridLevel.MapTests
             var expected = EMapTileState.Open;
             var mockMovementMap = new Mock<IMovementMap>();
             mockMovementMap.Setup(x => x.GetTileStateAt(0,0,0)).Returns(expected);
-            testClass.GiveTerrainMap(mockMovementMap.Object, x, z);
+            testClass.GiveMovementMap(mockMovementMap.Object, x, z);
 
             // Act
             EMapTileState actual = testClass.GetTileStateAt(x, 0, z);
@@ -93,7 +93,7 @@ namespace FQ.GridLevel.MapTests
             var expected = EMapTileState.Blocked;
             var mockMovementMap = new Mock<IMovementMap>();
             mockMovementMap.Setup(x => x.GetTileStateAt(0,0,0)).Returns(expected);
-            testClass.GiveTerrainMap(mockMovementMap.Object, x, z);
+            testClass.GiveMovementMap(mockMovementMap.Object, x, z);
 
             // Act
             EMapTileState actual = testClass.GetTileStateAt(x, 0, z);

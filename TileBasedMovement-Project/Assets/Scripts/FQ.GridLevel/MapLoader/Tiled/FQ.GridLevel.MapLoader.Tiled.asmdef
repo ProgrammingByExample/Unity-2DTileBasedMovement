@@ -1,0 +1,16 @@
+{
+    "name": "FQ.GridLevel.MapLoader.Tiled",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a3ca549ef0e046719dfb5dadbe4be10f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
